@@ -1,0 +1,25 @@
+rpcgen -C filename.x
+rpcgen -a -C filename.x
+//write client and server code
+make -f Makefile.filename
+./filename_server
+./filename_client localhost
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
